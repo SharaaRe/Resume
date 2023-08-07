@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Sharare Norouzi
+% Website: https://github.com/SharaaRe/Resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.25in}
+\addtolength{\textheight}{2.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-1pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{3pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{5pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Sharare Norouzi} & Email : \href{mailto:norouzi.sharare@gmail.com}{norouzi.sharare@gmail.com}\\
+    Python Developer \href & Mobile : +1-980-880-3301 \\&\href{https://LinkedIn.com/in/sharaare-norouzi/}{LinkedIn.com/in/sharaare-norouzi/} \\
+   &\href{https://gitlab.com/Sharaa_re}{Gitlab.com/Sharaa\_re} | \href{https://github.com/SharaaRe}{Github.com/SharaaRe}
+
+\end{tabular*}
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+ \resumeItemListStart
+   \item \textbf{Tools and Libraries:}
+   \newline
+   \textbf{Software and Development}  Python [Flask / Django/ PySpark] - Javascript [NodeJS / ExpressJS] - MongoDB, Redis, Elasticsearch - MySQL, SQLite -  DevOps Technologies [Gitlab CI/CD / Docker] - Bash[Unix/Linux] 
+\newline
+    \textbf{Machine Learning and Data} PyTorch / TensorFlow-Keras / NumPy / SciKit-Learn / Pandas
+     
+    
+\newline
+    \item  \textbf{Foundational Concepts:}
+
+    \textbf{Software and Development} Design Patterns - Microservice Architecture - Distributed Systems - Containerized Architecture 
+     \newline
+      \textbf{Data Science and ML} {ML Models} [Lineaer Regression, Neural Network, Deep Learning Models, Recommender System Models] -  Statistical Inference, Data Collection and Manipulation, Data Pre-processing and Decomposition
+    
+%\newline
+
+     % \textbf{Other}  Interdisciplinary Research, Analytical Thinking, Teamwork, Critical Thinking, Problem-Solving
+    \resumeItemListEnd
+ \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Related Experience}
+  \resumeSubHeadingListStart
+\resumeSubheading
+      {\href{https://qorvo.com}{Qorvo}}{Greensboro, NC}
+      {Software Engineering Intern}{May 2023 - Present}
+      \resumeItemListStart
+
+        \item { \textbf{Containerizing} build processes for advanced test development team in Windows environment, designing and automating the build using \textbf{Docker} and \textbf{GitLab CI/CD} pipelines and customized built environments. }
+\item {Determined feasibility of proposed pipeline designs}
+\item { Developing Qorvo internal fleet management system using \textbf{C#} in \textbf{.NET} framework and \textbf{Windows Presentation Foundation} and \textbf{MVVM} pattern}
+\item {Contributed to advancements in company internship experiences by offering thorough and knowledgeable feedback
+Composed documentation to improve knowledge sharing for future steps of the project development}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://tapsi.ir}{Tapsi Co}}{Tehran, Iran}
+      {Software Engineer - Ride Request Team - Map SubTeam}{July 2020 - July 2021}
+      \resumeItemListStart
+% {\begin{itemize}
+      \item{\textbf{Designed} and \textbf{developed} \textbf{\textit{data pipelines}} for machine learning modules using \textbf{Airflow}, \textbf{Kafka}, \textbf{Redis}, \textbf{Pyspark}}
+      \item { \textbf{Identified} issues, \textbf{redesigned} and \textbf{implemented} in-house Point of Interest Map Search Service utilizing \textbf{Elasticsearch}, \textbf{Python}, \textbf{OpenStreetMap} resulted in \textbf{improvement} of user search \textbf{hit-rate} from 40\% up to 70\% }
+      \item{ \textbf{Designed}, \textbf{implemented} new services and \textbf{developed}, \textbf{refactored}, and \textbf{maintained} map data-driven services and libraries based in \textbf{Python} using \textbf{MongoDB}, \textbf{Redis}, \textbf{Docker} utilizing \textbf{Software development best practices} and \textbf{design} \textbf{patterns} and \textbf{Microservice} Architecture}\\
+      \item{Collaborated with \textit{data science} and \textit{artificial intelligence} chapters in ETA service and Search service projects to \textbf{sanity-check} models and results using \textbf{Tableau, Grafana, and Prometheus}}\\
+      \item {\textbf{Risk Management} and \textbf{monitoring} by developing \textbf{unittest} and \textbf{integration test} increasing refactored services coverage up to \textbf{80\%}. Developed service loggers and \textbf{Grafana Dashboards}}
+      \item {\textbf{Mentored} Co-op students and planned and held \textbf{knowledge-sharing} sessions}
+      % \item {\textbf{Task Management [JIRA]}, Documentation and Visualization}
+% \end{itemize}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+\newpage
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {MS in Computer Science - Thesis Based }{Charlotte, NC}
+      {University of North Carolina at Charlotte}{Januray 2022 -- December 2023}
+    \begin{itemize}
+    {Concentration: Human Computer Interaction}
+        {Dual Degree with MS in Architecture, Design Computation Concentration}
+        \newline
+        {\textbf{Courses}:
+        Machine Learning -
+        Visual Analytics -
+        Recommender Systems - 
+        Database Systems -
+        Software Systems Design and Implementation - 
+        Network-Based Applications
+        }
+        \newline
+        {\textbf{Thesis[in progress]}: Action Recommender for Design Software Based on Sequence of Actions}
+      \end{itemize}
+
+
+    \resumeSubheading
+      {BS in Architecture, Minor in Computer Engineering}{ Tehran, Iran}
+      { University of Tehran }{Sept. 2015 -- Aug. 2020}
+    \begin{itemize}
+        {\textbf{Courses}:
+        Artificial Intelligence - 
+        Data Structure and Algorithms - 
+        Operating Systems - 
+        Advanced Programming} 
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+
+%--------Projects------------
+\section{Academic Experience and Projects}
+ \resumeSubHeadingListStart
+
+\item{
+      \textbf{Graduate Research Assistantship Project }{January 2022 - Present} [RaspberryPi, Flask] \newline
+        {{Refactor and Adding Sensor Modules to \href{https://freshairbuildingsystems.com}{AMPS}}}
+        {Refactored legacy code, designed and developed data collection modules for various sensors using Flask, MongoDB, and Adafruit}
+        {Data cleaning and analysis, developing a predictive ML model for automated actuator system}
+            % {Refactoring the legacy codes of the AMPS system of actuators, adding the sensor data collection module and database for automated actuators, refactor actuator schedulers, migrating to new http server using Flask framework and interface for the scientist working on the system to be able to modify actuator schedules. Improve the modularity of the system and test coverage resulting to have easier base code for future development and modifications.}
+            % {Cleaning and analyzing the collecting data of CO2 concentration, temperature and humidity, soil moisture levels and developing ML model for automated control of irrigation and light controls for AMPS system.}
+        }
+
+\item{
+     \href{https://github.com/SharaaRe/network-based-development}{\textbf{Trading Web App} }{Network-Based Applications Course Project [NodeJS, HTML/CSS, MongoDB]}  \\ {Design and Implementation of Trading Web Application on top of Express JS}
+    }
+\item{
+     {\textbf{Music App Recommender System} }{Sequential Recommender System Model }  \\ {Design and Implementation of a Music Recommender System Model for sequential data using hierarchical Gated Recurrent Unit (hGRU) model.}
+    }
+\item{
+     {\textbf{Visual Analytic Dashboards} }{Visual Analytics Course Projects}  \\ {Design and Implementation of Tableau Dashboards for analysis and information visualization from Open Street Map data}
+    }
+    % \item{
+    %  \textbf{CO2 Sensing Studio} {Studio Lab Project} \\ {Design and Implementation of embedded system for collecting CO2 levels of a room, data analysis, visualization and dashboard of data and incorporation with ventilation design solutions provided by Architecture peers.}
+    % }
+    \item{
+     \textbf{\href{https://github.com/SharaaRe/OSLabXV6}{Extending XV6 Operating System Kernel}}
+    {Operating Systems Lab Group Project [C/C++]} \\
+    {\href{https://gitlab.com/Sharaa_re/os-spring99-lab}{XV6} is an educational Operating System developed by MIT. \textbf{Extended} and added \textbf{features}, including different \textbf{locking mechanisms}, new \textbf{scheduling algorithms}, and \textbf{shared memory capability}. to this \textbf{kernel}. Also in OS course projects operating system related concepts like \textbf{\href{https://github.com/SharaaRe/OS-CourseAssignment-Pipe}{piping}} and\textbf{ \href{https://github.com/SharaaRe/OS-CourseAssignment3-Multithreading}{multi-threading}}}
+    }
+    % \item{
+    %  \href{https://gitlab.com/Sharaa_re/ap-final-project-utflix}{\textbf{UTFlix}} {Advanced Programming Final Project \\ Design a Netflix like web application on top of happy http C++ framework. Employed handler-controller design pattern and built multi-file c++ application and interface.}
+    % }
+    
+
+
+%
+
+%-------------------------------------------
+\end{document}
